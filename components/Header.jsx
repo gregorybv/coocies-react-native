@@ -16,7 +16,7 @@ const Header = () => {
       <View style={{ flexDirection: "row", alignItems: "center" }}>
         <Image
           source={{
-            uri: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/6313f5141327055.6251a2f0566ad.png",
+            uri: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/6313f5141327055.6251a2f0566ad.png"
           }}
           style={{
             width: 50,
