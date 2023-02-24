@@ -1,10 +1,10 @@
 export const COLORS = {
   primary: "#363841",
-  secondary: "#B12A21",
 
-  white: "#FCFCFC",
+  white: "#FFFFFF",
   black: "#000000",
   gray: "#111111",
+  orange: "#E38035"
 }
 export const SIZES = {
   // global sizes
@@ -14,8 +14,8 @@ export const SIZES = {
   padding: 24,
 
   // font sizes
-  h1: 30,
-  h2: 22,
+  h1: 32,
+  h2: 24,
   h3: 16,
   h4: 14,
   body1: 30,
