@@ -21,7 +21,6 @@ export default function App() {
       style={{
         width: "100%",
         height: "100%",
-        padding: 20,
         paddingTop: 65,
         backgroundColor: COLORS.primary,
       }}

@@ -11,6 +11,7 @@ const Offers = () => {
           flexDirection: "row",
           justifyContent: "space-between",
           alignItems: "flex-end",
+          paddingHorizontal: 20,
         }}
       >
         <Text style={{ color: COLORS.white, fontSize: SIZES.h1 }}>Offers</Text>

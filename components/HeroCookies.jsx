@@ -7,6 +7,7 @@ const HeroCookies = () => {
   return (
     <View
       style={{
+        paddingHorizontal: 20,
         paddingTop: 10,
         flexDirection: "row",
         justifyContent: "space-between",
@@ -19,8 +20,8 @@ const HeroCookies = () => {
             uri: "https://www.pngmart.com/files/16/Dark-Chocolate-Cookie-PNG-File.png",
           }}
           style={{
-            width: 140,
-            height: 140,
+            width: 135,
+            height: 135,
             zIndex: 5,
           }}
         />
@@ -30,7 +31,7 @@ const HeroCookies = () => {
             paddingTop: 30,
             paddingBottom: 20,
             backgroundColor: COLORS.gray,
-            width: 155,
+            width: 150,
             borderRadius: 15,
             borderBottomRightRadius: 80,
             position: "relative",
@@ -89,8 +90,8 @@ const HeroCookies = () => {
             uri: "https://cdn.shopify.com/s/files/1/0641/2052/0918/products/4_SnickerDoodle.png?v=1661268960",
           }}
           style={{
-            width: 140,
-            height: 140,
+            width: 135,
+            height: 135,
             zIndex: 5,
           }}
         />

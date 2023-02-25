@@ -8,6 +8,7 @@ const TitleOffers = () => {
     <View
       style={{
         marginTop: 10,
+        marginHorizontal: 20,
         backgroundColor: COLORS.gray,
         borderRadius: 15,
         borderBottomRightRadius: 80,
@@ -22,6 +23,7 @@ const TitleOffers = () => {
           paddingBottom: 10,
           paddingLeft: 10,
           paddingRight: 35,
+          
         }}
       >
         <Image
@@ -68,29 +70,37 @@ const TitleOffers = () => {
             </View>
           </View>
           <View style={{ paddingLeft: 10 }}>
-            <Text style={{ color: COLORS.white, textDecorationLine: "line-through" }}>20 USD</Text>
-            <Text style={{ color: COLORS.white, fontWeight: 'bold'  }}>12 USD</Text>
-          </View>
-          
-        </View>
-        <TouchableOpacity
+            <Text
               style={{
-                backgroundColor: COLORS.black,
-                borderRadius: 30,
-                position: "absolute",
-                right: -5,
-                bottom: 0
+                color: COLORS.white,
+                textDecorationLine: "line-through",
               }}
             >
-              <MaterialCommunityIcons
-                name='arrow-right'
-                size={25}
-                style={{
-                  color: COLORS.white,
-                  padding: 10,
-                }}
-              />
-            </TouchableOpacity>
+              20 USD
+            </Text>
+            <Text style={{ color: COLORS.white, fontWeight: "bold" }}>
+              12 USD
+            </Text>
+          </View>
+        </View>
+        <TouchableOpacity
+          style={{
+            backgroundColor: COLORS.black,
+            borderRadius: 30,
+            position: "absolute",
+            right: -5,
+            bottom: 0,
+          }}
+        >
+          <MaterialCommunityIcons
+            name='arrow-right'
+            size={25}
+            style={{
+              color: COLORS.white,
+              padding: 10,
+            }}
+          />
+        </TouchableOpacity>
       </View>
     </View>
   )
