@@ -1,4 +1,4 @@
-import { Text, View, Image } from "react-native"
+import { Text, View, Image, TouchableOpacity } from "react-native"
 import React from "react"
 import { MaterialCommunityIcons } from "@expo/vector-icons"
 import { COLORS, SIZES } from "../constans"
@@ -30,9 +30,9 @@ const Cookies = () => {
             paddingTop: 40,
             paddingBottom: 20,
             backgroundColor: COLORS.gray,
-            width: 145,
+            width: 155,
             borderRadius: 15,
-            borderBottomRightRadius: 60,
+            borderBottomRightRadius: 80,
             position: "absolute",
             top: 105,
           }}
@@ -59,7 +59,19 @@ const Cookies = () => {
               Premium
             </Text>
           </View>
-          <Text style={{ color: COLORS.white }}>20 USD</Text>
+          <View style={{flexDirection: "row", justifyContent: "space-between"}}>
+            <Text style={{ color: COLORS.white }}>20 USD</Text>
+            <TouchableOpacity style={{backgroundColor: COLORS.black, borderRadius: 30, position: "absolute", right: -8}}>
+              <MaterialCommunityIcons
+                name='arrow-right'
+                size={25}
+                style={{
+                  color: COLORS.white,
+                  padding: 10,
+                }}
+              />
+            </TouchableOpacity>
+          </View>
         </View>
       </View>
       <View>
@@ -81,7 +93,7 @@ const Cookies = () => {
             backgroundColor: COLORS.gray,
             width: 145,
             borderRadius: 15,
-            borderBottomRightRadius: 60,
+            borderBottomRightRadius: 80,
             position: "absolute",
             top: 105,
           }}
@@ -108,7 +120,19 @@ const Cookies = () => {
               Premium
             </Text>
           </View>
-          <Text style={{ color: COLORS.white }}>16 USD</Text>
+          <View style={{flexDirection: "row", justifyContent: "space-between"}}>
+            <Text style={{ color: COLORS.white }}>16 USD</Text>
+            <TouchableOpacity style={{backgroundColor: COLORS.black, borderRadius: 30, position: "absolute", right: -8}}>
+              <MaterialCommunityIcons
+                name='arrow-right'
+                size={25}
+                style={{
+                  color: COLORS.white,
+                  padding: 10,
+                }}
+              />
+            </TouchableOpacity>
+          </View>
         </View>
       </View>
     </View>
