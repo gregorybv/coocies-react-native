@@ -7,7 +7,7 @@ const Cookies = () => {
   return (
     <View
       style={{
-        paddingTop: 20,
+        paddingTop: 10,
         flexDirection: "row",
         justifyContent: "space-between",
         position: "relative",
