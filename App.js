@@ -1,11 +1,10 @@
 import React from "react"
-import { StatusBar } from "react-native"
-import { Text, View } from "react-native"
+import { View } from "react-native"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import { COLORS } from "./constans"
 import { useFonts } from "expo-font"
-import Cookies from "./components/Cookies"
+import Offers from "./components/Offers"
 
 export default function App() {
   const [loaded] = useFonts({
@@ -28,7 +27,7 @@ export default function App() {
     >
       <Header />
       <Hero />
-      <Cookies/>
+      <Offers />
     </View>
   )
 }

@@ -3,7 +3,7 @@ import React from "react"
 import { MaterialCommunityIcons } from "@expo/vector-icons"
 import { COLORS, SIZES } from "../constans"
 
-const Cookies = () => {
+const HeroCookies = () => {
   return (
     <View
       style={{
@@ -33,8 +33,8 @@ const Cookies = () => {
             width: 155,
             borderRadius: 15,
             borderBottomRightRadius: 80,
-            position: "absolute",
-            top: 105,
+            position: "relative",
+            bottom: 30,
           }}
         >
           <Text style={{ color: COLORS.white, fontSize: SIZES.h3 }}>
@@ -94,8 +94,8 @@ const Cookies = () => {
             width: 150,
             borderRadius: 15,
             borderBottomRightRadius: 80,
-            position: "absolute",
-            top: 105,
+            position: "relative",
+            bottom: 30,
           }}
         >
           <Text style={{ color: COLORS.white, fontSize: SIZES.h3 }}>
@@ -139,4 +139,4 @@ const Cookies = () => {
   )
 }
 
-export default Cookies
+export default HeroCookies

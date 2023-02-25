@@ -1,9 +1,9 @@
-import { Text, TouchableOpacity, View } from "react-native"
+import { Text, View, TouchableOpacity } from "react-native"
 import React from "react"
 import { COLORS, SIZES } from "../constans"
-import HeroCookies from "./HeroCookies"
+import TitleOffers from "./TitleOffers"
 
-const Hero = () => {
+const Offers = () => {
   return (
     <View>
       <View
@@ -13,14 +13,7 @@ const Hero = () => {
           alignItems: "flex-end",
         }}
       >
-        <View>
-          <Text style={{ color: COLORS.white, fontSize: SIZES.h1 }}>
-            Cookies
-          </Text>
-          <Text style={{ color: COLORS.orange, fontSize: SIZES.h2 }}>
-            Premium
-          </Text>
-        </View>
+        <Text style={{ color: COLORS.white, fontSize: SIZES.h1 }}>Offers</Text>
         <TouchableOpacity>
           <Text
             accessibilityRole='button'
@@ -30,9 +23,9 @@ const Hero = () => {
           </Text>
         </TouchableOpacity>
       </View>
-      <HeroCookies />
+      <TitleOffers />
     </View>
   )
 }
 
-export default Hero
+export default Offers
