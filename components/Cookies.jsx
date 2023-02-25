@@ -19,15 +19,15 @@ const Cookies = () => {
             uri: "https://www.pngmart.com/files/16/Dark-Chocolate-Cookie-PNG-File.png",
           }}
           style={{
-            width: 145,
-            height: 145,
+            width: 140,
+            height: 140,
             zIndex: 5,
           }}
         />
         <View
           style={{
             padding: 10,
-            paddingTop: 40,
+            paddingTop: 30,
             paddingBottom: 20,
             backgroundColor: COLORS.gray,
             width: 155,
@@ -80,18 +80,18 @@ const Cookies = () => {
             uri: "https://cdn.shopify.com/s/files/1/0641/2052/0918/products/4_SnickerDoodle.png?v=1661268960",
           }}
           style={{
-            width: 145,
-            height: 145,
+            width: 140,
+            height: 140,
             zIndex: 5,
           }}
         />
         <View
           style={{
             padding: 10,
-            paddingTop: 40,
+            paddingTop: 30,
             paddingBottom: 20,
             backgroundColor: COLORS.gray,
-            width: 145,
+            width: 150,
             borderRadius: 15,
             borderBottomRightRadius: 80,
             position: "absolute",
