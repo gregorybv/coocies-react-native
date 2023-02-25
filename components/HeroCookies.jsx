@@ -45,7 +45,7 @@ const HeroCookies = () => {
               flexDirection: "row",
               alignItems: "center",
               paddingTop: 5,
-              paddingBottom: 10,
+              paddingBottom: 5,
             }}
           >
             <MaterialCommunityIcons
@@ -59,9 +59,18 @@ const HeroCookies = () => {
               Premium
             </Text>
           </View>
-          <View style={{flexDirection: "row", justifyContent: "space-between"}}>
-            <Text style={{ color: COLORS.white }}>20 USD</Text>
-            <TouchableOpacity style={{backgroundColor: COLORS.black, borderRadius: 30, position: "absolute", right: -8}}>
+          <View
+            style={{ flexDirection: "row", justifyContent: "space-between" }}
+          >
+            <Text style={{ color: COLORS.white, fontWeight: 'bold' }}>20 USD</Text>
+            <TouchableOpacity
+              style={{
+                backgroundColor: COLORS.black,
+                borderRadius: 30,
+                position: "absolute",
+                right: -8,
+              }}
+            >
               <MaterialCommunityIcons
                 name='arrow-right'
                 size={25}
@@ -106,7 +115,7 @@ const HeroCookies = () => {
               flexDirection: "row",
               alignItems: "center",
               paddingTop: 5,
-              paddingBottom: 10,
+              paddingBottom: 5,
             }}
           >
             <MaterialCommunityIcons
@@ -120,9 +129,18 @@ const HeroCookies = () => {
               Premium
             </Text>
           </View>
-          <View style={{flexDirection: "row", justifyContent: "space-between"}}>
-            <Text style={{ color: COLORS.white }}>16 USD</Text>
-            <TouchableOpacity style={{backgroundColor: COLORS.black, borderRadius: 30, position: "absolute", right: -8}}>
+          <View
+            style={{ flexDirection: "row", justifyContent: "space-between" }}
+          >
+            <Text style={{ color: COLORS.white, fontWeight: 'bold' }}>16 USD</Text>
+            <TouchableOpacity
+              style={{
+                backgroundColor: COLORS.black,
+                borderRadius: 30,
+                position: "absolute",
+                right: -8,
+              }}
+            >
               <MaterialCommunityIcons
                 name='arrow-right'
                 size={25}
