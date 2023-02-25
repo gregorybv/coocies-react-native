@@ -5,7 +5,7 @@ import TitleOffers from "./TitleOffers"
 
 const Offers = () => {
   return (
-    <View>
+    <View style={{ top: -10 }}>
       <View
         style={{
           flexDirection: "row",
