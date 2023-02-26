@@ -1,5 +1,7 @@
 import React from "react"
 import { View } from "react-native"
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import { COLORS } from "./constans"
